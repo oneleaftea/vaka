@@ -6,7 +6,7 @@ disqusShortname = "username" # delete this to disable disqus comments
 paginate = "5"
 
 [permalinks]
-	post = "/post/:slug/"
+    post = "/post/:slug/"
 
 [params]
     author = "Yudy Chen"
