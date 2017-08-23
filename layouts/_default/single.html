@@ -2,7 +2,8 @@
 
 <main>
 
-    {{ partial "list-item" . }}
+    <h2>{{ .Title }}</h2>
+	{{ if .Params.date }}<h4>{{ .Date.Format "January 2, 2006" }}</h4>{{ end }}
 
     <br> <div class="text-justify">{{ .Content }}</div>
 
