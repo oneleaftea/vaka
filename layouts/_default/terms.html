@@ -3,13 +3,12 @@
 <main>
 
     <h2>{{ .Title }}</h2>
-	{{ range $key, $value := .Data.Terms }} 
-	<div class="item-term">
-		<h4><a href="{{ (print "/" $.Data.Plural "/" $key | urlize) | relURL }}">
-		{{ $key }}</a>({{ len $value }})</h4>
-	</div>
-	{{ end }}
-
+		<div class="item">
+			{{ range $key, $value := .Data.Terms }} 
+				<h4><a href="{{ (print "/" $.Data.Plural "/" $key | urlize) | relURL }}">
+				{{ $key }}</a>({{ len $value }})</h4>
+			{{ end }}
+		</div>
 </main>
 
 {{ partial "footer" . }}
