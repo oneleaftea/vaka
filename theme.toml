@@ -5,7 +5,7 @@ description = "A minimal blog theme powered by Hugo"
 homepage = "https://github.com/oneleaftea/vaka"
 tags = ["blog", "minimal", "personal", "responsive"]
 features = ["responsive"]
-min_version = "0.24.1"
+min_version = "0.26"
 
 [author]
   name = "Yudy Chen"

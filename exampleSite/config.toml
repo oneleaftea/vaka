@@ -11,14 +11,10 @@ paginate = "5"
 [params]
     author = "Yudy Chen"
     description = "A minimal Hugo theme"
-    githubUsername = "oneleaftea"
     accent = "#008fcc"
     showBorder = true
     backgroundColor = "white"
     font = "Raleway" # should match the name on Google Fonts!
-    highlight = true
-    highlightStyle = "atelier-cave-light"
-    highlightLanguages = ["bash", "python", "r", "go"]
 
 [[menu.main]]
     url = "/"
