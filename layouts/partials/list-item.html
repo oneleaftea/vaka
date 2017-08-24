@@ -1,7 +1,6 @@
 <div class="item">
 
     <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
-    {{ if .Params.date }}<h5>{{ .Date.Format "January 2, 2006" }}</h5>{{ end }}
-    {{ range .Params.tags }} <kbd class="item-tag">{{ . }}</kbd> {{ end }}
+    {{ partial "date-tags" . }}
 
 </div>
