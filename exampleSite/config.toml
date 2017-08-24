@@ -2,7 +2,8 @@ baseURL = "https://example.com/"
 languageCode = "en-us"
 title = "Vaka"
 theme = "vaka"
-disqusShortname = "username" # delete this to disable disqus comments
+disqusShortname = "" # delete this to disable disqus comments
+googleAnalytics = ""
 paginate = "5"
 
 [permalinks]
