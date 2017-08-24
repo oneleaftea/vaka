@@ -2,7 +2,7 @@
 
 <main>
 
-    <h2>{{ .Title }}</h2>
+    <h1>{{ .Title }}</h1>
 	{{ if .Params.date }}<h5>{{ .Date.Format "January 2, 2006" }}</h5>{{ end }}
 
     <br> <div class="text-justify">{{ .Content }}</div>
