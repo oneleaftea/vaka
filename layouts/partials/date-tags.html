@@ -1,0 +1,2 @@
+{{ if .Params.date }}<h5>{{ .Date.Format "January 2, 2006" }}</h5>{{ end }}
+{{ range .Params.tags }} <kbd class="item-tag">{{ . }}</kbd> {{ end }}
