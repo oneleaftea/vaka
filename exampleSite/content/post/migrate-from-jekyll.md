@@ -2,6 +2,7 @@
 title: "Migrate from Jekyll"
 date: 2014-03-10
 tags: ["go", "golang", "hugo", "jekyll", "static-site-generator"]
+categories: ["Development"]
 draft: false
 ---
 

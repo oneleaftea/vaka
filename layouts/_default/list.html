@@ -3,8 +3,8 @@
 <main>
 
     <h1>{{ .Title }}</h1>
-
-    {{ range .Paginator.Pages }} {{ partial "list-item" . }} {{ end }}
+	{{ $paginator := .Paginate (where .Data.Pages "Type" "!=" "page") }}
+    {{ range $paginator.Pages }} {{ partial "list-item" . }} {{ end }}
 
 </main>
 

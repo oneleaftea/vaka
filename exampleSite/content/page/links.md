@@ -2,12 +2,9 @@
 title = "Links"
 description = "Stuff to check out"
 date = "2014-04-07"
-author = "Yudy Chen"
-disable_comments = true
 disableComments = true
 [menu.main]
 name = "Links"
-pre = "<i class='fa fa-link fa-fw'></i>"
 weight = 4
 +++
 

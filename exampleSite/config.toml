@@ -9,7 +9,7 @@ paginate = "5"
     post = "/post/:slug/"
 
 [params]
-    author = "Yudy Chen"
+    author = "Ian Curtis"
     description = "A minimal Hugo theme"
     accent = "#008fcc"
     showBorder = true
