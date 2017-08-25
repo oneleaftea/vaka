@@ -71,8 +71,12 @@ a:hover {
 }
 
 .item-tag {
-    background-color: var(--accent);
+    border-width: 1px;
+    border-color: #4f5b66;
+    border-style: solid;
+    background-color: #ffffff;
     font-size: 14px;
+    box-shadow: none;
 }
 
 /*navigation bar icons*/

@@ -1,6 +1,3 @@
 {{ if .Params.date }}<h5>{{ .Date.Format "January 2, 2006" }}</h5>{{ end }}
 {{ range .Params.tags }} <kbd class="item-tag">
-  <a href='{{ "tags/" |  relURL }}{{ . | urlize }}'>
-    {{ . }}
-  </a>
-</kbd> {{ end }}
+	<a href='{{ "tags/" |  relURL }}{{ . | urlize }}'>{{ . }}</a></kbd>{{ end }}
